@@ -1,0 +1,12 @@
+1. recursion
+2. args, kargs
+3. 
+
+def outer():
+    def inner():
+        return "Inner function"
+    return inner
+func = outer()
+print(func())
+
+closure usage 
