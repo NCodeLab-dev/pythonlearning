@@ -9,7 +9,7 @@ print(type(x))
 msg="hello world"
 print(len(msg))
 
-#help()
+#help(print)
 
 #help(str) # gives string class methods, halts the programme
 
@@ -37,3 +37,10 @@ print(1, 2,3,sep=",")#1,2,3 # separator passed
 msg='hellpo'
 print(msg)
 print(2**10)
+
+
+
+print("----")
+
+
+print(1,2,3,sep="_")

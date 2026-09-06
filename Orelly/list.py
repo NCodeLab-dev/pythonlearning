@@ -112,3 +112,28 @@ else:
 print(randint(1,int(sides)))
 
 
+
+
+
+
+my_name="Narayan"
+print(my_name[0])
+
+#check if a character is presenet in a string
+
+def check_char(name,char):
+    if char in name:
+        print(char," present")
+    else:
+        print(char," not present")
+
+check_char(my_name,'l')
+
+check_char(bikes, "bmw")
+
+
+print("------ludo game------");
+
+from random import randint
+
+print(randint(1,6))

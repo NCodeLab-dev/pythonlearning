@@ -36,3 +36,5 @@ args = sys.argv;
 print(args);  # ['/Users/narayan/Developer/languages/python/learning/Orelly/module.py', 'Hello']
 
 print(args[1])
+
+

@@ -1,0 +1,6 @@
+In Python, you can replace part of a string using 
+the built-in string.replace() method. Since strings in 
+Python are immutable, 
+this method does not change the original string; instead, it returns a 
+brand-new string with the updates applied.
+hello narayan
