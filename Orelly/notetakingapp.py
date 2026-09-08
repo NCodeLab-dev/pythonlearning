@@ -22,6 +22,7 @@ print(file.read_text())
 """
 
 from pathlib import Path
+print("current path:",Path.cwd()) #current working directory
 file_path = Path("narayan.txt")
 
 with file_path.open('a', encoding="utf-8") as file:

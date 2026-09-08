@@ -29,3 +29,8 @@ with open("data.txt",mode="at") as file:
 
 """
 
+
+colors = ["green", "blue", "purple", "red", "yellow"]
+for color in colors:
+  print("I like " + color)
+
